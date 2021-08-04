@@ -8,3 +8,5 @@ you can also edit the readme file in RStudio
 - is
 - a bullet
  - list
+
+Or you can edit the readme file in the github browser
