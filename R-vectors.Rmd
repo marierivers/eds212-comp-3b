@@ -1,0 +1,55 @@
+---
+title: "Vectors in R"
+author: "Marie Rivers"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#if echo = false you wont see raw code in the knitted html. You can also change it echo = TRUE or False if you only want some code to show up and not other code
+```
+
+```{r}
+# Create a vector!
+
+vec_a <- c(4, 5) #this is how you create a vector in R
+
+vec_a #return vector a
+
+```
+## another code chunk
+```{r, echo = FALSE}  
+
+#this overrides the global echo option established up top.
+vec_b <- c(-3, 10) #this code wont show up in the knitted document
+```
+```{r}
+
+vec_c <- vec_a + vec_b
+vec_c
+```
+## Vector subtration
+```{r}
+vec_d <- vec_b - vec_a
+vec_d
+```
+
+## Vector scalar multiplier:
+```{r}
+vec_e <- 4 * vec_b
+vec_e
+
+```
+## If we use the asterisk:
+```{r}
+vec_a * vec_b
+
+```
+## Dot product %*%
+```{r}
+vec_a %*% vec_b
+# the dot product should be a single number
+```
+
+
